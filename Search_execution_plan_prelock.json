@@ -1,0 +1,21 @@
+{
+  "version": "prelock-source-plan-20261029",
+  "date": "2026-10-29T06:51:44.095658+00:00",
+  "sampling_started": false,
+  "biomedical_source": "PubMed; literal master query in supplied protocol; annual date ranges recursively partitioned below 10,000 records; all returned IDs reconciled to ESummary XML metadata",
+  "engineering_discovery_source": "Semantic Scholar bulk search; five vocabulary families over each year 2000\u20132025; terminal continuation tokens and unique IDs retained",
+  "semantic_scholar_queries": {
+    "orthopaedic_remit": "orthopaedic | orthopedic | musculoskeletal | (biomechanics + (bone | joint | spine | muscle | tendon | ligament))",
+    "bone_joint": "bone | fracture | osteogenesis | osteoarthritis | cartilage | chondrocyte | arthroplasty | \"joint replacement\"",
+    "soft_tissue_spine": "tendon | ligament | meniscus | \"intervertebral disc\" | \"spinal fusion\" | \"skeletal muscle\"",
+    "engineering_rescue": "(musculoskeletal | orthopaedic | orthopedic | bone | joint | spine | muscle | tendon | ligament) + (\"finite element\" | \"musculoskeletal model\" | implant | prosthesis | scaffold | mechanobiology | gait | wearable | robotics | \"additive manufacturing\")",
+    "computational_rescue": "(musculoskeletal | orthopaedic | orthopedic | bone | joint | spine | muscle | tendon | ligament) + (\"machine learning\" | \"deep learning\" | simulation | \"digital twin\" | optimization | \"imaging model\")"
+  },
+  "openalex": "Not included in frame retrieval because cursor continuation returned HTTP 401; no alternate route used to evade restriction. Citation discovery failures remain explicit.",
+  "licensed_sources": "Embase, Scopus, Web of Science, Compendex and IEEE Xplore: authenticated access not established; no search completion asserted.",
+  "europe_pmc": "Indexed-source retrieval and permitted original full-text links; not counted as independent biomedical frame alongside PubMed.",
+  "identity_freeze": "Pending complete exports and explicit reconciliation; no new sample until finalized",
+  "scope": "Accessible source frames only; not all worldwide orthopaedic innovation",
+  "outcome_cutoff": "2025-12-31",
+  "legacy_exposure": "Known development cohort; kept separate from new probability sample"
+}
